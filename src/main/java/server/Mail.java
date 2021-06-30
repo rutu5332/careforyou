@@ -16,15 +16,15 @@ import java.io.PrintWriter;*/
 
 public class Mail {
 	
-    final String username = "care4you2019@gmail.com";
-    final String password = "care@2019";
+    final String username = /* mail address */;
+    final String password = /* Password */;
 	
 	public Mail(String towhome,String sub , String text) 
 	{
 		
-		String from = "care4you2019@gmail.com";
+		String from = ; // username or mail 
 		 String to=towhome;
-		 //to="rutuchudasama.2000@gmail.com";
+		 
 		 String host = "smtp.gmail.com";
 
 	      Properties props = new Properties();
